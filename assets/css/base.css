@@ -9,7 +9,8 @@
     --star-gold-color: #ffce3d;
     --header-height:120px;
     --navbar-height:32px;
-    --header-with-search-height:calc(var(--header-height) - var(--navbar-height))
+    --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height:46px
     
 }
 
@@ -25,6 +26,8 @@ html
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+
 
 
 /* Scrollbar */
@@ -52,18 +55,7 @@ body::-webkit-scrollbar-button {
 }
 
 
-/* Responsive */
-.grid
-{
-    width: 1440px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.grid__fullwidth
-{
-    width: 100px;
-}
 
 .grid__row
 {
